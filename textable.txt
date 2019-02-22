@@ -139,7 +139,7 @@ ENGINE = InnoDB;
 -- Table `antons_skafferi`.`event`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `antons_skafferi`.`event` (
-  `event_id` INT NOT NULL,
+ `event_id` INT NOT NULL AUTO_INCREMENT,
   `description` VARCHAR(255) NULL,
   `image` VARCHAR(255) NULL,
   PRIMARY KEY (`event_id`))
