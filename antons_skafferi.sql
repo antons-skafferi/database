@@ -176,9 +176,9 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `antons_skafferi`;
-INSERT INTO `antons_skafferi`.`food` (`food_id`, `dish`, `description`, `ingrediens`, `category`) VALUES (DEFAULT, 'Fiskpinnar med potatis', 'Pannerad fisk doppat i massor av lök', 'lök fiskpinnar potatis', 'fisk');
-INSERT INTO `antons_skafferi`.`food` (`food_id`, `dish`, `description`, `ingrediens`, `category`) VALUES (DEFAULT, 'Spagetti Carbonara', 'Italienskt hemmagjord spagetti utan lök', 'Pasta, bacon, ägg', 'pasta');
-INSERT INTO `antons_skafferi`.`food` (`food_id`, `dish`, `description`, `ingrediens`, `category`) VALUES (DEFAULT, 'Lök och kolgryta med linser', 'råstekt Lökklyftor med lit linser', 'Lök, kol, linser', 'vego');
+INSERT INTO `antons_skafferi`.`food` (`food_id`, `dish`, `description`, `ingrediens`, `category`) VALUES (DEFAULT, 'Fiskpinnar med potatis', 'Pannerad fisk doppat i massor av lÃ¶k', 'lÃ¶k fiskpinnar potatis', 'fisk');
+INSERT INTO `antons_skafferi`.`food` (`food_id`, `dish`, `description`, `ingrediens`, `category`) VALUES (DEFAULT, 'Spagetti Carbonara', 'Italienskt hemmagjord spagetti utan lÃ¶k', 'Pasta, bacon, Ã¤gg', 'pasta');
+INSERT INTO `antons_skafferi`.`food` (`food_id`, `dish`, `description`, `ingrediens`, `category`) VALUES (DEFAULT, 'LÃ¶k och kolgryta med linser', 'rÃ¥stekt LÃ¶kklyftor med lit linser', 'LÃ¶k, kol, linser', 'vego');
 
 COMMIT;
 
@@ -214,7 +214,7 @@ USE `antons_skafferi`;
 INSERT INTO `antons_skafferi`.`drink` (`drink_id`, `drink_name`, `price`) VALUES ('Drink_1', 'Coca Cola 33cl', 20);
 INSERT INTO `antons_skafferi`.`drink` (`drink_id`, `drink_name`, `price`) VALUES ('Drink_2', 'Black Russian', 500);
 INSERT INTO `antons_skafferi`.`drink` (`drink_id`, `drink_name`, `price`) VALUES ('Drink_3', 'Coca cola 2L', 40);
-INSERT INTO `antons_skafferi`.`drink` (`drink_id`, `drink_name`, `price`) VALUES ('Drink_4', 'Häst Nacke', 250);
+INSERT INTO `antons_skafferi`.`drink` (`drink_id`, `drink_name`, `price`) VALUES ('Drink_4', 'HÃ¤st Nacke', 250);
 
 COMMIT;
 
@@ -224,7 +224,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `antons_skafferi`;
-INSERT INTO `antons_skafferi`.`order` (`order_id`, `table_number`, `item`, `note`, `amount`, `active`, `date_time`, `prepared`) VALUES (DEFAULT, 5, 'Dinner_1', '-lök', 1, 1, DEFAULT, 0);
+INSERT INTO `antons_skafferi`.`order` (`order_id`, `table_number`, `item`, `note`, `amount`, `active`, `date_time`, `prepared`) VALUES (DEFAULT, 5, 'Dinner_1', '-lÃ¶k', 1, 1, DEFAULT, 0);
 INSERT INTO `antons_skafferi`.`order` (`order_id`, `table_number`, `item`, `note`, `amount`, `active`, `date_time`, `prepared`) VALUES (DEFAULT, 5, 'Drink_2', '-kaloua', 5, 1, DEFAULT, 1);
 
 COMMIT;
@@ -252,7 +252,7 @@ START TRANSACTION;
 USE `antons_skafferi`;
 INSERT INTO `antons_skafferi`.`booking` (`booking_id`, `table_id`, `people`, `from`, `to`, `date`, `name`, `lastname`, `phone`, `email`) VALUES (DEFAULT, '1', 4, '10:00:00', '12:00:00', '2019-02-21', 'Toni', 'burken', '0703210936', 'toni@toni.com');
 INSERT INTO `antons_skafferi`.`booking` (`booking_id`, `table_id`, `people`, `from`, `to`, `date`, `name`, `lastname`, `phone`, `email`) VALUES (DEFAULT, '2', 6, '14:00:00', '16:00:00', '2019-02-21', 'Tobi', 'Hackerman', '0701242145', 'Tobias@karlsson.com');
-INSERT INTO `antons_skafferi`.`booking` (`booking_id`, `table_id`, `people`, `from`, `to`, `date`, `name`, `lastname`, `phone`, `email`) VALUES (DEFAULT, '3', 2, '10:00:00', '12:00:00', '2019-02-21', 'fisk', 'Mås', '0731209525', 'fisken@mås.com');
+INSERT INTO `antons_skafferi`.`booking` (`booking_id`, `table_id`, `people`, `from`, `to`, `date`, `name`, `lastname`, `phone`, `email`) VALUES (DEFAULT, '3', 2, '10:00:00', '12:00:00', '2019-02-21', 'fisk', 'MÃ¥s', '0731209525', 'fisken@mÃ¥s.com');
 
 COMMIT;
 
@@ -273,7 +273,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `antons_skafferi`;
-INSERT INTO `antons_skafferi`.`event` (`event_id`, `description`, `image`) VALUES (DEFAULT, 'Karlsson på taket kommer den på fredag', 'images/pogchamp.pog');
+INSERT INTO `antons_skafferi`.`event` (`event_id`, `description`, `image`) VALUES (DEFAULT, 'Karlsson pÃ¥ taket kommer den pÃ¥ fredag', 'images/pogchamp.pog');
 
 COMMIT;
 
