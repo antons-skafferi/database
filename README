@@ -1,1 +1,20 @@
-DO STUFF
+Windows Only
+Install MySQL Installer 8.0.15 and Select all the packets below
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+Install MySQL Workbench 8.0.15 
+https://dev.mysql.com/downloads/workbench/
+
+Install MySQL Connector/J 5.1.47 or 8.0.15 
+https://dev.mysql.com/doc/relnotes/connector-j/5.1/en/news-5-1-47.html 	
+https://dev.mysql.com/downloads/connector/j/8.0.html - Must use the installer above for windows
+
+Install MySQL Server 8.0.15
+https://dev.mysql.com/downloads/mysql/
+
+Windows Only
+Install MySQL Installer 8.0.15 and Select all the packets below
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+In netbeans you need to add the downloaded connector to your projects Libraries by Right clickinging and selecting Add JAR/folder, navigate to the connector folder and select the .jar
+https://www.youtube.com/watch?v=nW13FmTdkjc
