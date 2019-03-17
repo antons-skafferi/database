@@ -1,0 +1,8 @@
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (18,'Halstrad kammussla','Halstrad kammussla med jordärtskockskräm, syrlig fänkål, Kalixlöjrom och havskräftsoppa','','appetizer_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (19,'Rostad rotselleri','Rostad rotselleri, rotsellerikräm, korngryn med brynt kantarell och mandel samt tryffel, hyvlad manchego och spansk körvel',NULL,'appetizer_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (20,'Hjortytterfilé','Sotad hjortytterfilé med vinägersky, gratinerad blomkålspuré samt palsternacka med honung och citron',NULL,'main_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (21,'Kalixgös','Ångad Kalixgös med dillsmörsås, konfiterad fänkål med timjan och lagerblad samt mandelpotatissufflé',NULL,'main_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (22,'Lammytterfilé','Lammytterfilé med stuvad svamp, bakad spetskål, rostad potatis och vitlökssky',NULL,'main_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (23,'Bakad choklad','Bakad choklad med hjortron, karamellglass och bovetepuffar',NULL,'dessert_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (30,'Tiramisu','Klassisk italiensk efterrätt med krämig mascarpone',NULL,'dessert_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (39,'Äppelpaj','Smulpaj med äpple, vaniljsås, havresmulor och smörkola','','dessert_menu');
