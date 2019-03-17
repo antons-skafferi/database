@@ -34,6 +34,8 @@ CREATE TABLE IF NOT EXISTS `antons_skafferi`.`booking` (
   `lastname` VARCHAR(45) NOT NULL,
   `phone` VARCHAR(45) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
+  `booking_description` VARCHAR(255) NULL DEFAULT NULL,
+  `string_booking_from` VARCHAR(255) NULL DEFAULT NULL,
   PRIMARY KEY (`booking_id`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 4
@@ -192,14 +194,14 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
-INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (1,'Halstrad kammussla','Halstrad kammussla med jordärtskockskräm, syrlig fänkål, Kalixlöjrom och havskräftsoppa','','appetizer_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (1,'Halstrad kammussla','Halstrad kammussla med jordärtskockskräm, syrlig fänkål, Kalixlöjrom och havskräftsoppa',NULL,'appetizer_menu');
 INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (2,'Rostad rotselleri','Rostad rotselleri, rotsellerikräm, korngryn med brynt kantarell och mandel samt tryffel, hyvlad manchego och spansk körvel',NULL,'appetizer_menu');
 INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (3,'Hjortytterfilé','Sotad hjortytterfilé med vinägersky, gratinerad blomkålspuré samt palsternacka med honung och citron',NULL,'main_menu');
 INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (4,'Kalixgös','Ångad Kalixgös med dillsmörsås, konfiterad fänkål med timjan och lagerblad samt mandelpotatissufflé',NULL,'main_menu');
 INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (5,'Lammytterfilé','Lammytterfilé med stuvad svamp, bakad spetskål, rostad potatis och vitlökssky',NULL,'main_menu');
 INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (6,'Bakad choklad','Bakad choklad med hjortron, karamellglass och bovetepuffar',NULL,'dessert_menu');
 INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (7,'Tiramisu','Klassisk italiensk efterrätt med krämig mascarpone',NULL,'dessert_menu');
-INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (8,'Äppelpaj','Smulpaj med äpple, vaniljsås, havresmulor och smörkola','','dessert_menu');
+INSERT INTO food (`food_id`,`dish`,`description`,`ingrediens`,`category`) VALUES (8,'Äppelpaj','Smulpaj med äpple, vaniljsås, havresmulor och smörkola',NULL,'dessert_menu');
 
 INSERT INTO dinner (`dinner_id`,`food_id`,`price`) VALUES ('dinner1',1,165);
 INSERT INTO dinner (`dinner_id`,`food_id`,`price`) VALUES ('dinner2',2,165);
